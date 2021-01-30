@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container">
-            <nav>
+            <nav hidden md:inline-block>
                 <li><nuxt-link :to="{ path: `/` }">home</nuxt-link></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">todos</a></li>

@@ -1,6 +1,6 @@
 <template>
     <div class="tasks container">
-        <div class="grid grid-cols-2 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
             <Task v-for="task in tasks" :key="task.id" :task="task">
             </Task>
         </div>
