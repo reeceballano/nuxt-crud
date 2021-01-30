@@ -36,7 +36,7 @@ export default {
         filteredTasks() {
             const tasks = this.getTasks;
 
-            const filtered = tasks.filter(task => task.name === this.search);
+            const filtered = tasks.filter(task => task.name.toLowerCase().includes(this.search.toLowerCase() ) );
 
             if(this.search.length === 0) {
                 return tasks;
