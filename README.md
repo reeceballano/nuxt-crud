@@ -1,4 +1,13 @@
-# todo-2
+# NUXT CRUD
+
+Basic CRUD/Todo app written in Nuxt.js/Vue.js
+
+
+## Tech
+
+- Nuxt.js
+- Vue.js
+- Tailwindcss 2
 
 ## Build Setup
 
